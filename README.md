@@ -77,11 +77,11 @@ The timeframe considered for this project is 2007 - 2017.
       
  - Autocorrelation
     - ACF: Plot shows a gradual decline instead of a sharp cutoff (q = 0 or 1).
-      <img width="987" alt="image" src="https://github.com/user-attachments/assets/ec2fdef4-e429-4e03-b93d-05e61553bd10" />
+      <img width="987" alt="image" src="https://github.com/user-attachments/assets/d7537b38-f4b3-4128-baae-f4f6b4d22a2f" />
 
     - PACF: Plot cuts off sharply after lag 1 (p=1)
-      <img width="987" alt="image" src="https://github.com/user-attachments/assets/4e5931b2-279e-4fa8-85af-f3617c06661f" />
-      
+      <img width="987" alt="image" src="https://github.com/user-attachments/assets/95902d2b-08eb-4b8f-ba55-b5cff759c3c4" />
+
     - ADF test confirms stationarity (p-value < 0.05), set d=0
     - Try ARIMA parameters (1, 0, 1) 
          
