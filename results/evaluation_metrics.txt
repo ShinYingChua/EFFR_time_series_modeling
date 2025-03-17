@@ -1,0 +1,14 @@
+Model Evaluation Metrics
+========================
+
+ARIMA Model:
+RMSE: 0.1542
+MAE: 0.1148
+
+SARIMA Model:
+RMSE: 0.2122
+MAE: 0.1568
+
+ARIMAX Model:
+RMSE: 0.1095
+MAE: 0.0809
