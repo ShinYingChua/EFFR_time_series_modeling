@@ -98,7 +98,8 @@ The timeframe considered for this project is 2007 - 2017.
 2) SARIMA
 - SARIMA is considered because it enhances the modeling of EFFR by capturing both trend and seasonality in interest rate movements. Interest rates often exhibit seasonal or cyclical behavior due to economic cycles, monetary policy changes, and market expectations.
 - Based on the seasonality plot ,the peaks and troughs suggest a recurring pattern over time, which justifies using SARIMA 
-  <img width="987" alt="image" src="https://github.com/user-attachments/assets/a6d85162-0279-4f11-ac26-6b331adebaf6" />
+  <img width="987" alt="image" src="https://github.com/user-attachments/assets/632955ec-90ac-4fae-acfd-fffe154dbc01" />
+
 -  Enforce d=0 (no trend differencing) and D=1 (one seasonal difference) while optimizing the remaining parameters using Optuna to minimize RMSE.
 -  Order(p, d, q) = (2, 0, 3) and Seasonal Order(P, D, Q, s) = (0, 1, 0 , 12)
 
@@ -129,13 +130,13 @@ The lack of repeating seasonal spikes suggests that seasonality is weak or incon
 
 2) Prediction VS Testing
 - ARIMA model shows a linear trend in predictions 
-<img width="987" alt="image" src="https://github.com/user-attachments/assets/2ee76729-66ee-4346-ba9e-5ae2a0b69eb9" />
+<img width="987" alt="image" src="https://github.com/user-attachments/assets/5dbfc1ab-fdee-46d1-8075-ecf819f65c5d" />
 
 - SARIMA predictions remain almost flat, indicating that the model is unable to capture trend changes or significant variations in the data.
-<img width="987" alt="image" src="https://github.com/user-attachments/assets/12af9bda-0096-497e-a50c-890c4a63e74d" />
+<img width="987" alt="image" src="https://github.com/user-attachments/assets/245d425d-b432-46f5-98cc-87d2f3f708a2" />
 
 - ARIMAX mode captures the general trend and rate fluctuations more accurately than ARIMA or SARIMA.
-<img width="987" alt="image" src="https://github.com/user-attachments/assets/c8e56e17-8fd1-45e2-8cc5-2e0985585bc2" />
+<img width="987" alt="image" src="https://github.com/user-attachments/assets/183f5137-c19a-4022-a242-2fabad9cf3ae" />
 
 ## Reference
 1) https://www.datacamp.com/tutorial/arima
