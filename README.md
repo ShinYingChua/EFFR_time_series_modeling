@@ -62,13 +62,13 @@ The timeframe considered for this project is 2007 - 2017.
   - Reason for NA values: The missing values occur due to duplicate entries within the same year and month but on different days.
   - Since we are working with monthly data, removing these duplicates does not affect the overall trend.
   - Interest rates are policy-driven and may experience sudden changes, making imputation unreliable.
-  <img width="987" alt="image" src="https://github.com/user-attachments/assets/bb6ba0c3-1727-43fc-ad97-c5ae2008459e" />
+  <img width="987" alt="image" src="https://github.com/user-attachments/assets/fd375489-7b83-4cfc-95e0-7df3b7d0ff7e" />
 
 2) Insights
 - Rolling Mean & Standard Deviation
     - Some periods (e.g., 2009–2015) had stable rates, making them stationary.
     - Other periods (e.g., 2007–2009 and 2015–2017) had rapid changes, making them non-stationary.
-  <img width="987" alt="image" src="https://github.com/user-attachments/assets/3de5faaf-64d8-412d-a8a4-b15f98b8ed63" />
+  <img width="987" alt="image" src="https://github.com/user-attachments/assets/2311e85e-96cb-4423-99b3-b400191bf6f4" />
 
 - Global Stationarity Check
     - While ARIMA models can deal with non-stationarity up to a point, they cannot effectively account for time-varying variance. In other words, for an ARIMA model to really work, the data has to be stationary. 
